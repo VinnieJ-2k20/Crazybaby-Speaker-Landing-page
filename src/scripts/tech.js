@@ -14,7 +14,7 @@ const counterMax = 2;
 
 const width = sliderContent.clientWidth;
 
-const size = width / 3;
+const size = (width - window.screen.width) / 2 + 20;
 
 pageNum.textContent = '0' + (counter + 1);
 
